@@ -16,7 +16,7 @@ $(document).ready(function () {
                 }
             },
             {
-                breakpoint: 480,  // For mobile screens
+                breakpoint: 576,  // For mobile screens
                 settings: {
                     slidesToShow: 1
                 }

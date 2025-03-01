@@ -14,6 +14,7 @@ body{
 	font-smooth: always;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
+	overflow-x: hidden;
 }
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section, span { 
@@ -497,6 +498,7 @@ input[type="submit"]{
 .slider {
     width: 80%;
     margin: 0 auto;
+	overflow: hidden;
 }
 /* Custom Dots */
 .slick-dots {

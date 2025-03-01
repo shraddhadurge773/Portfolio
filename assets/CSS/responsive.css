@@ -15,13 +15,22 @@
     .cover-content p{
       letter-spacing: 1px !important;
     }
+    .cover-content {
+        padding: 80px 30px !important;
+    }
 
 }
 @media (max-width: 991.5px) { 
     .cover-content {
         padding: 40px 40px !important;
     }
-
+    .skill_section{
+        padding-top: 0px !important;
+    }
+    .uiWork{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
 }
 
 @media (max-width: 812px){
@@ -48,6 +57,18 @@
     }
 }
 
+@media (max-width: 767.5px) { 
+    .cover-content {
+        padding: 0px 15px !important;
+    }
+    .belief_section{
+        padding: 40px 0;
+    }
+    .section-heading {
+        padding-bottom: 23px !important;
+    }
+
+}
 @media (max-width: 574.5px) { 
     .skills .skill-ico {
         margin: 0px 0px !important;
