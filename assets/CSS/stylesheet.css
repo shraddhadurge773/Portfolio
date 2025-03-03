@@ -16,6 +16,9 @@ body{
 	-moz-font-smoothing: antialiased;
 	overflow-x: hidden;
 }
+.wrapper{
+	overflow: hidden;
+}
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section, span { 
     display:block;
@@ -65,7 +68,6 @@ img {
 }
 .cust_container {
     max-width: 100%;
-    margin: 0 15px;
 }
 section, footer{
 	padding: 70px 0px;
@@ -127,7 +129,21 @@ section, footer{
 }
 
 /* cover */
-.cover-main{
+.bannerContent, .myImage{
+	flex: 50% 0 0;
+	width: 50%;
+	max-width: 50%;
+}
+.bannerContentBox{
+	padding: 80px;
+}
+.myImage{
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+	/* min-height: 740px; */
+}
+/* .cover-main{
 	width: 100%;
 	height: 100vh;
 	background-image: url(../../assets/images/my_image.jpg);
@@ -139,7 +155,6 @@ section, footer{
 	width: 100%;
 	height: auto;
 	min-height: 100vh;
-	/*background-color: #1b1b1b;*/
 	position: relative;
 	background-image: url(../../assets/images/my_image.jpg);
 	background-repeat: no-repeat;
@@ -167,7 +182,7 @@ section, footer{
     top: 50%;
     transform: translate(0, -50%);
 	padding: 80px 80px;
-}
+} */
 
 .cover-title{
 	text-transform: uppercase;
@@ -232,6 +247,10 @@ section, footer{
 /*--------------------------------------------------------------
 5.	Work Links
 --------------------------------------------------------------*/
+.workcontainer{
+	padding-left: 30px;
+    padding-right: 30px;
+}
 .work-box{
 	display: block;
 	position: relative;
@@ -381,10 +400,14 @@ footer{
 	background-color: #CBA35C;
 	color: #ffffff;
 }
-
+.Footercontainer, .workcontainer{
+	max-width: 1320px;
+	width: 100%;
+	margin: 0 auto;
+}
 .footer-title,
 footer a{
-	color: #ffffff;
+	color: #ffffff !important;
 }
 footer a:hover{
 	color: #ffffff;
@@ -429,7 +452,7 @@ footer a:hover{
 }
 
 .social-footer li a{
-	color: #1b1b1b;
+	color: #1b1b1b !important;
 }
 
 .copyright-text{

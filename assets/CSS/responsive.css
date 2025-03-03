@@ -8,6 +8,9 @@
 
 }
 @media (max-width: 1024px) { 
+    .bannerContentBox {
+        padding: 80px 40px !important;
+    }
     .cover-title{
          font-size: 24px !important;
          letter-spacing: 1px !important;
@@ -21,11 +24,15 @@
 
 }
 @media (max-width: 991.5px) { 
+    footer p, footer a {
+        font-size: 13px !important;
+        letter-spacing: 1px;
+    }
+    footer{
+        padding: 30px !important;
+    }
     .cover-content {
         padding: 40px 40px !important;
-    }
-    .skill_section{
-        padding-top: 0px !important;
     }
     .uiWork{
         padding-top: 0px;
@@ -58,6 +65,17 @@
 }
 
 @media (max-width: 767.5px) { 
+    section{
+        padding: 40px 0 !important;
+    }
+    .bannerContent, .myImage{
+        flex: 100% 0 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .myImage {
+        min-height: 530px;
+    }
     .cover-content {
         padding: 0px 15px !important;
     }
